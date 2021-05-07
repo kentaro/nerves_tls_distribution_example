@@ -23,7 +23,7 @@ defmodule NervesTlsDistributionExample.MixProject do
   def application do
     [
       mod: {NervesTlsDistributionExample.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :asn1, :ssl, :public_key]
     ]
   end
 
