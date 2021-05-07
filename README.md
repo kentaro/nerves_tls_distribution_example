@@ -67,6 +67,8 @@ Then, connect to the node.
 ```
 iex(host@localhost)1> Node.connect(:"device@nerves.local")
 true
+iex(host@localhost)2> Node.list()
+[:"device@nerves.local"]
 ```
 
 Now you see TLS distribution between the host and the Nerves device is successfully enabled!
